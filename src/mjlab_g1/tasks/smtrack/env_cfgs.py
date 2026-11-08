@@ -40,7 +40,8 @@ REPO_ROOT = Path(__file__).resolve().parents[4]
 MOTION_FILES: dict[str, Path] = {
   "walk": REPO_ROOT / "dataset/tracking/locomotion1.npz",
   # The lift motion without the box: separates "can track the motion" from "can carry".
-  "squat": REPO_ROOT / "dataset/tracking/dual_arm1.npz",
+  # "squat": REPO_ROOT / "dataset/tracking/dual_arm1.npz",
+  "squat": REPO_ROOT / "dataset/tracking/hdmi_bread_box_robot_only_50hz.npz",
   "lift": REPO_ROOT / "dataset/tracking/dual_arm1_box.npz",
 }
 
