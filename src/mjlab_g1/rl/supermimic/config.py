@@ -92,7 +92,7 @@ class SuperMimicRunnerCfg(RslRlBaseRunnerCfg):
   logger: Literal["wandb", "tensorboard"] = "tensorboard"
   max_iterations: int = 320_000  # Table A.5
   num_steps_per_env: int = 3  # informational only (ceil of env_steps_per_iter); train.py reads it
-  save_interval: int = 5000  # ours: ~220 MB per checkpoint at paper widths
+  save_interval: int = 2500  # ours: ~220 MB per checkpoint at paper widths
   log_interval: int = 50  # ours: metrics.jsonl / tensorboard cadence (averaged over the interval)
 
   # Data collection.
