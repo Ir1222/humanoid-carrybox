@@ -1,0 +1,1 @@
+Repository bootstrap; the full local snapshot will be written next.
